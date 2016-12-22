@@ -3,6 +3,8 @@
 import * as angular from 'angular';
 
 import {techsModule} from './app/techs/index';
+import { homeModule } from './app/home-page/home-page.module';
+
 import 'angular-ui-router';
 import routesConfig from './routes';
 
@@ -11,10 +13,10 @@ import {header} from './app/header';
 import {title} from './app/title';
 import {footer} from './app/footer';
 
-import './index.scss';
+import '../css/index.scss';
 
 angular
-  .module('app', [techsModule, 'ui.router'])
+	.module('app', [homeModule, techsModule, 'ui.router'])
   .config(routesConfig)
   .component('app', main)
   .component('fountainHeader', header)

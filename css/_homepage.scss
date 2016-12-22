@@ -1,0 +1,27 @@
+.title { 
+  background: url(../src/img/Finland.jpg) -20px -20px repeat;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  display:block;
+  &:hover{
+  	 background: url(../src/img/Finland.jpg) -10px -10px repeat;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    display:block;
+  };
+}
+.title-shade{
+  color: $title-shade;
+}
+.title-position{
+  position: absolute;
+  left: -5em;
+  bottom: 10em;
+  z-index: 2;
+}
+.title-shade-position{
+  position: absolute;
+  left: -4em;
+  bottom: 13em;
+  z-index: 1;
+}

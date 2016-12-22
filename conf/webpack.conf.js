@@ -32,6 +32,11 @@ module.exports = {
         ]
       },
       {
+        test: /\.(png|jpg)$/,
+        loader: "url-loader",
+        query: { mimetype: "image/png" }
+      },
+      {
         test: /\.ts$/,
         exclude: /node_modules/,
         loaders: [

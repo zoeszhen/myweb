@@ -6,10 +6,16 @@ html, body {
     margin: 0;
     padding: 0;
     width: 100%;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    /*background-color: #FCF3CF;*/
+    /*-webkit-background-size: cover; /* For WebKit*/
+   /* -moz-background-size: cover;    /* Mozilla*/
+    /*-o-background-size: cover;      *//* Opera*/
+    /*background-size: cover; */
 }
 
 h1{
-  font-size:15em;
+  font-size:20em;
   font-weight: 900;
 }
 
@@ -21,21 +27,31 @@ button{
   color: #333;
   font-size: 1em;
   font-weight:100;
+  border-radius: 0px;
 }
 
 span{
   color: explain-text;
   font-size: 2em;
 }
+
+.button-style{
+  color: $explain-text;
+  font-size: 1.3em;
+  font-weight:100;
+  border-radius: 0px;
+  padding: 1em 3em
+}
 .title-position{
   position: absolute;
   left: 0%;
-  top: 40%;
+  top: 20%;
   z-index: 0;
 }
 
 .title { 
-  background: url(../src/img/Finland.jpg) 5em 2.5em;
+  background: url(../src/img/title-finland.jpg) ;
+  background-position: -50px -90px;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text !important;
   display:block;
@@ -53,7 +69,7 @@ span{
 }
 
 .name-position{
-  top: -23em;
+  top: -28em;
   position: relative;
 }
 .text-right{
@@ -62,4 +78,16 @@ span{
 .description-text{
   width: 80%;
   float:right;
+}
+.arrow{
+    font-size: 60px !important;
+    -webkit-text-stroke: 8px white;
+    z-index: 0;
+    position: relative;
+    top: 0.3em;
+    left: 0.2em;
+    color: $explain-text;
+}
+.floating-function{
+  position: relative;
 }

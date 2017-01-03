@@ -1,0 +1,93 @@
+$username-color:#497CBE;
+$title-shade-color:#EFF5FB;
+$explain-text:#333;
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    /*background-color: #FCF3CF;*/
+    /*-webkit-background-size: cover; /* For WebKit*/
+   /* -moz-background-size: cover;    /* Mozilla*/
+    /*-o-background-size: cover;      *//* Opera*/
+    /*background-size: cover; */
+}
+
+h1{
+  font-size:20em;
+  font-weight: 900;
+}
+
+h2{
+  font-size: 6em;
+  color: $username-color;
+}
+button{
+  color: #333;
+  font-size: 1em;
+  font-weight:100;
+  border-radius: 0px;
+}
+
+span{
+  color: explain-text;
+  font-size: 2em;
+}
+
+.button-style{
+  color: $explain-text;
+  font-size: 1.3em;
+  font-weight:100;
+  border-radius: 0px;
+  padding: 1em 3em
+}
+.title-position{
+  position: absolute;
+  left: 0%;
+  top: 20%;
+  z-index: 0;
+}
+
+.title { 
+  background: url(../src/img/title-finland.jpg) ;
+  background-position: -50px -90px;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text !important;
+  display:block;
+  z-index: 2;
+  position: relative;
+  left: -1em;
+}
+.title-shade{
+  position: relative;
+  left: 0.2em;
+  bottom: 1.7em;
+  z-index: 1;
+  width: 100%;
+  color: $title-shade-color;
+}
+
+.name-position{
+  top: -28em;
+  position: relative;
+}
+.text-right{
+  text-align: right;
+}
+.description-text{
+  width: 80%;
+  float:right;
+}
+.arrow{
+    font-size: 60px !important;
+    -webkit-text-stroke: 8px white;
+    z-index: 0;
+    position: relative;
+    top: 0.3em;
+    left: 0.2em;
+    color: $explain-text;
+}
+.floating-function{
+  position: relative;
+}

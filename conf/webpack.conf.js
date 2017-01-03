@@ -32,7 +32,7 @@ module.exports = {
         ]
       },
       {
-        test: /\.(png|jpg)$/,
+        test: /\.(png|jpg|woff|woff2|eot|ttf|svg)$/,
         loader: "url-loader",
         query: { mimetype: "image/png" }
       },

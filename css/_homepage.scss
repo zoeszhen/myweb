@@ -1,36 +1,37 @@
-.title { 
-  background: url(../src/img/Finland.jpg) -20px -20px;
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-  display:block;
-  &:hover{
-  	 background: url(../src/img/Finland.jpg) no-repeat 10px 10px;
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    display:block;
-  };
-}
-.title-shade{
-  color: #EFF5FB;
-}
+$title-shade-color:#EFF5FB;
 .title-position{
   position: absolute;
-  left: -5em;
-  bottom: 10em;
+  left: 0%;
+  top: 20%;
+  z-index: 0;
+}
+.title { 
+  background: url(../src/img/title-finland.jpg) ;
+  background-position: -50px -90px;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text !important;
+  display:block;
   z-index: 2;
-}
-.title-shade-position{
-  position: absolute;
-  left: -4em;
-  bottom: 13em;
-  z-index: 1;
-}
-.name{
-  font-size: 5em;
-  color: #497CBE;
   position: relative;
-  bottom: -4.5em;
-  left: 8em;
-  z-index: 3;
-  font-weight: 900;
+  left: -1em;
+}
+.title-shade{
+  position: relative;
+  left: 0.2em;
+  bottom: 1.7em;
+  z-index: 1;
+  width: 100%;
+  color: $title-shade-color;
+}
+
+.name-position{
+  top: -28em;
+  position: relative;
+}
+.text-right{
+  text-align: right;
+}
+.description-text{
+  width: 80%;
+  float:right;
 }

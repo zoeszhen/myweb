@@ -11,7 +11,7 @@ export function HomepageroutesConfig($stateProvider: angular.ui.IStateProvider, 
 			component: 'fountainHomepage'
 		})
 		.state('aboutme', {
-			url: '/',
+			url: '/me',
 			component: 'fountainAboutMe'
 		});
 

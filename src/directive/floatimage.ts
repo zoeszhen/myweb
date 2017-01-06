@@ -4,11 +4,11 @@ import * as angular from "angular";
 export function panning() {
 	var link = function(scope, element) {
 
-		var movementStrength = 100;
+		var movementStrength = 50;
 		var height = movementStrength / $(window).height();
 		var width = movementStrength / $(window).width();
 
-		$(".title").mousemove(function(e) {
+		$("html").mousemove(function(e) {
           var pageX = e.pageX - ($(window).width() / 2);
           var pageY = e.pageY - ($(window).height() / 2);
           var newvalueX = width * pageX * -1 - 45;

@@ -1,0 +1,121 @@
+$big-square-color: #2A548B;
+$small-square-color: #4577B7;
+$mid-square-color: #858585;
+
+#square-big{
+  height:40em;
+  width:40em;
+  background: $big-square-color;
+  animation-duration: 1s;
+  animation-name: big-square;
+  animation-timing-function: ease-in;
+  position: relative;
+
+  .text{
+         visibility: hidden !important;
+        }
+
+  &:hover{
+        height:43em;
+        width: 43em;
+        background: $big-square-color;
+        z-index: 10;
+        opacity: 1 !important;
+
+        .text{
+         visibility: visible !important;
+        }
+    };
+    .active{
+        opacity: 0.5;
+    }
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes big-square {
+    from { width: 10em; }
+    to { width: 40em; }
+}
+
+@keyframes big-square {
+    from { width: 10em; }
+    to { width: 40em; }
+}
+
+#square-mid{
+  height:35em;
+  width:35em;
+  background: $mid-square-color;
+  animation-duration: 1s;
+  animation-name: mid-square;
+  animation-timing-function: ease-in;
+  position: relative;
+  top: -25em;
+  left: 25em;
+    .text{
+         visibility: hidden !important;
+        }
+    &:hover{
+        height:38em;
+        width: 38em;
+        background: $mid-square-color;
+        z-index: 10;
+        opacity: 1 !important;
+        
+        .text{
+         visibility: visible !important;
+        }
+    };
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mid-square {
+    from { width: 10em; }
+    to { width: 35em; }
+}
+
+@keyframes mid-square {
+    from { width: 10em; }
+    to { width: 35em; }
+}
+
+#square-small{
+    height: 25em;
+    width: 25em;
+    background: $small-square-color;
+    animation-duration: 1s;
+    animation-name: small-square;
+    animation-timing-function: ease-in;
+    position: relative;
+    top: -70em;
+    left: 20em;
+    .text{
+         visibility: hidden !important;
+        }
+
+    &:hover{
+        height:28em;
+        width: 28em;
+        background: $small-square-color;
+        z-index: 10;
+        opacity: 1 !important;
+
+        .text{
+         visibility: visible !important;
+        }
+    };
+    .active{
+        opacity: 0.5;
+    }
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes small-square {
+    from { width: 10em; }
+    to { width: 30em; }
+}
+
+@keyframes small-square {
+    from { width: 10em; }
+    to { width: 30em; }
+}

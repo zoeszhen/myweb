@@ -1,7 +1,10 @@
 export class AboutMe {
 	static $name = "AboutMe";
-
+	public test: boolean = false;
 	constructor() {
-		console.log("come to about page");
+		this.test = true; 
+	}
+	public trigger(){
+		this.test = !this.test;
 	}
 }

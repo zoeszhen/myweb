@@ -11,7 +11,7 @@ import {HomepageroutesConfig} from './home-page.route';
 export const homeModule = 'homepage';
 
 angular
-	.module(homeModule, ['ui.router'])
+	.module(homeModule, ['ui.router', 'ngAnimate'])
 	.config(HomepageroutesConfig)
 	.component('fountainHomepage', homepage)
 	.component('fountainAboutMe', aboutme);

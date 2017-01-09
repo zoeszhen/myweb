@@ -2,12 +2,13 @@
   position: relative;
 }
 .sharps-position{
-  height: 100%;
-  width: 50%;
+  height: 80%;
+  width: 60%;
   top: 15%;
   position: absolute;
-  left: 20%;
-  overflow-y:scroll;
+  left: 10%;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 .sharps-position::-webkit-scrollbar {
     -webkit-appearance: none;
@@ -42,7 +43,8 @@
     text-align: justify;
 }
 .background-aboutme{
-  background: url(../src/img/about-me.jpg) no-repeat center center fixed;
+  background: url('../src/img/about-me.png') no-repeat center center fixed;
+  height:100%;
   -webkit-background-size: cover; /* For WebKit*/
   -moz-background-size: cover;    /* Mozilla*/
   -o-background-size: cover;      /* Opera*/

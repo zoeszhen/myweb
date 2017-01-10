@@ -61,3 +61,25 @@ span{
     left: 0.2em;
     color: $explain-text;
 }
+
+.bg {position: absolute;bottom: 0;left: -5%;height: 21%;width: 110%;background: #f2f2f2;z-index: 2;/* transform: translate(0, 100%); */}
+.bg > div > div {position: relative;width: 50%;float: left;}
+.bg > div > div > span { display: block; margin-bottom: 2px; }
+.bg .white { left: 0; top: -15px; }
+.bg .white > span { background: #fff; }
+.bg .white > span:nth-child(1) { width: 90%; height: 30px; }
+.bg .white > span:nth-child(2) { width: 60%; height: 15px; }
+.bg .white > span:nth-child(3) { width: 80%; height: 10px; }
+.bg .white > span:nth-child(4) { width: 35%; height: 5px; }
+.bg .gray {right: 0;top: -52px;text-align: right;}
+.bg .gray > span { background: #f2f2f2; float: right; }
+.bg .gray > span:nth-child(1) { width: 35%; height: 5px; }
+.bg .gray > span:nth-child(2) { width: 80%; height: 10px; }
+.bg .gray > span:nth-child(3) { width: 60%; height: 15px; }
+.bg .gray > span:nth-child(4) { width: 90%; height: 30px; }
+
+.bg.reverse > div > div { float: right; }
+.bg.reverse .white { left: auto; right: 0; top: -15px; }
+.bg.reverse .white > span { float: right; }
+.bg.reverse .gray { left: 0; right: auto; top: -52px; }
+.bg.reverse .gray > span { float: left; }

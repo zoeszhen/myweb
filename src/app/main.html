@@ -1,3 +1,15 @@
 <div class="container">
-    <fountain-homepage></fountain-homepage>
+	<div class='menu closed' ng-hide="mainVm.isClose">
+	  <div class='messages button'></div>
+	  <div class='music button'></div>
+	  <div class='home button'></div>
+	  <div class='places button'></div>
+	  <div class='bookmark button'></div>
+	  <div class='main button' ng-click="mainVm.triggerMenu()">Menu</div>
+	</div>
+	mainVm.isClose{{mainVm}}
+    <fountain-homepage></fountain-homepage> 
 </div>
+<!-- <div>
+	<fountain-projectpage></fountain-projectpage>
+</div> -->

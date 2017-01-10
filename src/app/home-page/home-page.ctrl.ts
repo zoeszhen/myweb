@@ -1,7 +1,9 @@
 export class homePageCtrl {
 	static $name = "homePageCtrl";
-	
-	constructor() {
+	public test;
+	constructor(public $window) {
+		this.test = $window.innerHeight + $window.scrollY;
+
 		console.log("come to home page");
 	}
 }

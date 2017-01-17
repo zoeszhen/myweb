@@ -4,6 +4,7 @@ $title-shade-color:#EFF5FB;
   left: 0%;
   top: 20%;
   z-index: 0;
+  height: 100px;
 }
 .title { 
   background: url(../src/img/title-finland.jpg) ;
@@ -22,12 +23,16 @@ $title-shade-color:#EFF5FB;
   z-index: 1;
   width: 100%;
   color: $title-shade-color;
+  height: 100%;
 }
 
 .name-position{
-  top: -28em;
+  top: -15em;
   position: relative;
+  height:100%;
+  z-index: 100;
 }
+
 .text-right{
   text-align: right;
 }

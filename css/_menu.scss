@@ -1,5 +1,5 @@
-$items : home, music, messages, places, bookmark;
-$colors : #1ba5cd, #1ab254, #fec72e, #fa7d39, #ee5656;
+$items : home,places, bookmark;
+$colors : #EFF5FB, #DDEDE6, #E6EEf5;
 $white : #f8f7f2;
 $black : #030f01;
 
@@ -16,7 +16,7 @@ html { background: $white; }
 .menu, .button {
 	width: $size;
 	height: $size;
-	user-select: none;
+	/*user-select: none;*/
 }
 
 .menu {
@@ -27,6 +27,7 @@ html { background: $white; }
 	transform: scale3d(1,1,1);
 	transform-origin: top left;	
 	cursor: pointer;
+	z-index: 99;
 }
 
 .button {
@@ -60,8 +61,7 @@ html { background: $white; }
 		box-shadow: 0 0 0 5px rgba($black, 0);
 	}
 }
-		
-$coords : 0 1, .382683 .92388, .707107 .707107, .92388 .382683, 1 0;
+$coords : 0 .5, 0 1, 0 1.5;
 $closed_coords : 0 -.5, .475528 -.154508, .293893 .404508, -.293893 .404508, -.475528 -.154508;
 
 @for $i from 1 through length($items) {

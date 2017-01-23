@@ -1,11 +1,25 @@
 $title-shade-color:#EFF5FB;
+$title-shade-color-experience:#ddede6;
+$title-shade-color-contact:#cadadd;
+
 .title-position{
   position: absolute;
   left: 0%;
-  top: 20%;
-  z-index: 0;
-  height: 100px;
+  z-index: 1;
+  top:-100px;
 }
+.title-group{
+  position: absolute; 
+  left: 0; 
+  top:0;
+}
+
+.title-group-right{
+  position: absolute; 
+  right: 0; 
+  top:0;
+}
+
 .title { 
   background: url(../src/img/title-finland.jpg) ;
   background-position: -50px -90px;
@@ -13,23 +27,21 @@ $title-shade-color:#EFF5FB;
   -webkit-background-clip: text !important;
   display:block;
   z-index: 2;
-  position: relative;
-  left: -1em;
-}
-.title-shade{
-  position: relative;
-  left: 0.2em;
-  bottom: 1.7em;
-  z-index: 1;
-  width: 100%;
-  color: $title-shade-color;
-  height: 100%;
+  position: absolute;
 }
 
-.name-position{
-  top: -15em;
+.title-shade{
   position: relative;
-  height:100%;
+  width: 100%;
+  z-index: 1;
+  color: $title-shade-color;
+  height: 100%;
+  top:0.7em;
+}
+.name-position{
+  top: 550px;
+  position: relative;
+  height: 100%;
   z-index: 100;
 }
 
@@ -39,4 +51,24 @@ $title-shade-color:#EFF5FB;
 .description-text{
   width: 80%;
   float:right;
+}
+
+.experience{
+  color: $title-shade-color-experience !important;
+}
+.contact{
+  color: title-shade-color-contact;
+}
+.contact-name{
+  color: #036781 !important;
+}
+.experience-name{
+  color: #128c66 !important;
+}
+.right{
+  position: absolute;
+  right:0;
+}
+.no-float{
+  float: none !important;
 }

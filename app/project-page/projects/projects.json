@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Gulp",
+    "img": "http://fountainjs.io/assets/imgs/gulp.png",
+    "text": "Lorem ipsum dolor sit amet, no sea reque tation dolorum, eum oblique feugait disputando ei. Eu amet atqui delicatissimi sit, nec ea alia molestiae, dolorem singulis ea mea. Id pro dicunt eleifend consetetur, et quo viderer molestie sapientem. Mea te modo utamur meliore, eos et eligendi prodesset, novum percipit maluisset mel ex. Eam agam utamur regione no. Sed ad imperdiet consectetuer, ius nostrud signiferumque id, an hinc eius mea.",
+    "link": "http://gulp.com"  
+  },
+  {
+    "title": "Angular 1",
+    "img": "http://fountainjs.io/assets/imgs/angular1.png",
+    "text": "HTML Lorem ipsum dolor sit amet, no sea reque tation dolorum, eum oblique feugait disputando ei. Eu amet atqui delicatissimi sit, nec ea alia molestiae, dolorem singulis ea mea. Id pro dicunt eleifend consetetur, et quo viderer molestie sapientem. Mea te modo utamur meliore, eos et eligendi prodesset, novum percipit maluisset mel ex. Eam agam utamur regione no. Sed ad imperdiet consectetuer, ius nostrud signiferumque id, an hinc eius mea.!",
+    "link": "http://gulp.com"  
+  },
+  {
+    "title": "Browsersync",
+    "img": "http://fountainjs.io/assets/imgs/browsersync.png",
+    "text": "Lorem ipsum dolor sit amet, no sea reque tation dolorum, eum oblique feugait disputando ei. Eu amet atqui delicatissimi sit, nec ea alia molestiae, dolorem singulis ea mea. Id pro dicunt eleifend consetetur, et quo viderer molestie sapientem. Mea te modo utamur meliore, eos et eligendi prodesset, novum percipit maluisset mel ex. Eam agam utamur regione no. Sed ad imperdiet consectetuer, ius nostrud signiferumque id, an hinc eius mea.rowser testing",
+    "link": "http://gulp.com"  
+  },
+  {
+    "title": "Sass",
+    "img": "http://fountainjs.io/assets/imgs/sass.png",
+    "text": "Lorem ipsum dolor sit amet, no sea reque tation dolorum, eum oblique feugait disputando ei. Eu amet atqui delicatissimi sit, nec ea alia molestiae, dolorem singulis ea mea. Id pro dicunt eleifend consetetur, et quo viderer molestie sapientem. Mea te modo utamur meliore, eos et eligendi prodesset, novum percipit maluisset mel ex. Eam agam utamur regione no. Sed ad imperdiet consectetuer, ius nostrud signiferumque id, an hinc eius mea.e Sheets.",
+    "link": "http://gulp.com"  
+  },
+  {
+    "title": "TypeScript",
+    "img": "http://fountainjs.io/assets/imgs/typescript.png",
+    "text": "Lorem ipsum dolor sit amet, no sea reque tation dolorum, eum oblique feugait disputando ei. Eu amet atqui delicatissimi sit, nec ea alia molestiae, dolorem singulis ea mea. Id pro dicunt eleifend consetetur, et quo viderer molestie sapientem. Mea te modo utamur meliore, eos et eligendi prodesset, novum percipit maluisset mel ex. Eam agam utamur regione no. Sed ad imperdiet consectetuer, ius nostrud signiferumque id, an hinc eius mea.JavaScript the way you really want to.",
+    "link": "http://gulp.com"  
+  },
+  {
+    "title": "TSLint",
+    "img": "http://fountainjs.io/assets/imgs/tslint.png",
+    "text": "A Lorem ipsum dolor sit amet, no sea reque tation dolorum, eum oblique feugait disputando ei. Eu amet atqui delicatissimi sit, nec ea alia molestiae, dolorem singulis ea mea. Id pro dicunt eleifend consetetur, et quo viderer molestie sapientem. Mea te modo utamur meliore, eos et eligendi prodesset, novum percipit maluisset mel ex. Eam agam utamur regione no. Sed ad imperdiet consectetuer, ius nostrud signiferumque id, an hinc eius mea.t language.",
+    "link": "http://gulp.com"  
+  },
+  {
+    "title": "Karma",
+    "img": "http://fountainjs.io/assets/imgs/karma.png",
+    "text": "Lorem ipsum dolor sit amet, no sea reque tation dolorum, eum oblique feugait disputando ei. Eu amet atqui delicatissimi sit, nec ea alia molestiae, dolorem singulis ea mea. Id pro dicunt eleifend consetetur, et quo viderer molestie sapientem. Mea te modo utamur meliore, eos et eligendi prodesset, novum percipit maluisset mel ex. Eam agam utamur regione no. Sed ad imperdiet consectetuer, ius nostrud signiferumque id, an hinc eius mea.r JavaScript",
+    "link": "http://gulp.com"  
+  },
+  {
+    "title": "Webpack",
+    "img": "http://fountainjs.io/assets/imgs/webpack.png",
+    "text": "Webpack Lorem ipsum dolor sit amet, no sea reque tation dolorum, eum oblique feugait disputando ei. Eu amet atqui delicatissimi sit, nec ea alia molestiae, dolorem singulis ea mea. Id pro dicunt eleifend consetetur, et quo viderer molestie sapientem. Mea te modo utamur meliore, eos et eligendi prodesset, novum percipit maluisset mel ex. Eam agam utamur regione no. Sed ad imperdiet consectetuer, ius nostrud signiferumque id, an hinc eius mea.r",
+    "link": "http://gulp.com"
+  }
+]

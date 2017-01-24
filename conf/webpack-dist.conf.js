@@ -24,6 +24,11 @@ module.exports = {
         })
       },
       {
+        test: /\.(png|jpg|woff|woff2|eot|ttf|svg)$/,
+        loader: "url-loader",
+        query: { mimetype: "image/png" }
+      },
+      {
         test: /\.ts$/,
         exclude: /node_modules/,
         loaders: [

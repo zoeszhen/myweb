@@ -5,6 +5,7 @@ import * as angular from 'angular';
 import {techsModule} from './app/techs/index';
 import { homeModule } from './app/home-page/home-page.module';
 import { projectModule } from './app/project-page/project-page.module';
+import { contactModule } from './app/contact-page/contact-page.module';
 
 import 'angular-ui-router';
 import routesConfig from './routes';
@@ -22,7 +23,7 @@ import '../css/font-awesome/scss/font-awesome.scss';
 import "../node_modules/angular-animate/angular-animate.js";
 
 angular
-	.module('app', [homeModule, projectModule, techsModule, 'ui.router', 'ngAnimate'])
+	.module('app', [homeModule, projectModule, contactModule, techsModule, 'ui.router', 'ngAnimate'])
 	.config(routesConfig)
 	.component('app', main)
 	.directive('panning', panning)

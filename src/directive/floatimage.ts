@@ -4,7 +4,7 @@ import * as angular from "angular";
 export function panning() {
 	var link = function(scope, element) {
 
-		var movementStrength = 50;
+		var movementStrength = 20;
 		var height = movementStrength / $(window).height();
 		var width = movementStrength / $(window).width();
 

@@ -1,8 +1,8 @@
 class Tech {
   constructor(
-    public logo: string,
+    public img: string,
     public title: string,
-    public text1: string,
+    public text: string,
     public text2: string
   ) {}
 }

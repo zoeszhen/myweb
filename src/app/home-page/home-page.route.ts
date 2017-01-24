@@ -8,7 +8,7 @@ export function HomepageroutesConfig($stateProvider: angular.ui.IStateProvider, 
 	$stateProvider
 		.state('homepage', {
 			parent: 'app',
-			url: '/',
+			url: '/home',
 			component: 'fountainHomepage'
 		})
 		.state('aboutme', {

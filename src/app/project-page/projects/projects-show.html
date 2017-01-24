@@ -1,0 +1,26 @@
+<div class="container-fluid background-aboutme project-page" >
+	<div class="row-fluid">
+			<div class="col-md-4 text-center">
+			  	<button class="btn btn-default button-style-left-back" ui-sref="projectpage">
+	  			<object  data="../../img/back.svg" type="image/svg+xml" class="arrow-right"></object>
+			  		BACK
+			  	</button>
+		  </div>
+		  <div class="col-md-8" style="overflow-y: scroll; height:600px;">
+		  	<ul class="list-group" ng-repeat="item in projectshowVm.dataList" >
+		  		<li class="list-group-item project-item">
+		  			<span class="item-title"> {{item.title}} </span>
+		  			<div class="row">
+		  				<div class="col-md-4">
+		  					<img src={{item.img}} class="project-img">
+		  				</div>
+		  				<div class="col-md-8">
+			  			{{item.text}}
+		  				</div>
+		  				<a class="overlay" href={{item.link}} target="_blank" ><span class="read-more">READ MORE</span></a>
+		  			</div>
+		  		</li>
+		  	</ul>
+		</div>
+	</div>
+</div>

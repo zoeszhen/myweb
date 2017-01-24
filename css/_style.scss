@@ -46,13 +46,68 @@ span {
 }
 
 .button-style {
-    color: $explain-text;
+    background: transparent;
     font-size: 1.3em;
     font-weight: 100;
     border-radius: 0px;
     padding: 1em 3em;
     position: absolute;
+    .arrow-left{
+        position: relative;
+        top: 5px;
+        left: -65px;
+        z-index: 2;
+    }
+
+    &:hover .arrow-left{
+        left: -70px;
+    };
 }
+
+.button-style-left {
+    background: transparent;
+    font-size: 1.3em;
+    font-weight: 100;
+    border-radius: 0px;
+    padding: 1em 3em;
+    right: 30px;
+    top: 30px;
+    position: absolute;
+
+    .arrow-right{
+        position: relative;
+        top: 5px;
+        left: 132px;
+        z-index: 2;
+    }
+
+    &:hover .arrow-right{
+        left: 137px;
+    };
+}
+
+.button-style-left-back {
+    background: transparent;
+    font-size: 1.3em;
+    font-weight: 100;
+    border-radius: 0px;
+    padding: 1em 3em;
+    right: 30px;
+    top: 30px;
+
+    .arrow-right{
+        position: relative;
+        top: 5px;
+        left: 107px;
+        z-index: 2;
+    }
+
+    &:hover .arrow-right{
+        left: 112px;
+    };
+}
+
+
 
 .arrow {
     font-size: 60px !important;
@@ -75,108 +130,8 @@ span {
     };
 }
 
-.bg {
-    position: absolute;
-    bottom: 0;
-    left: -5%;
-    height: 21%;
-    width: 110%;
-    background: #f2f2f2;
-    z-index: 0;
-    /* transform: translate(0, 100%); */
-}
-
-.bg > div > div {
-    position: relative;
-    width: 50%;
-    float: left;
-}
-
-.bg > div > div > span {
-    display: block;
-    margin-bottom: 2px;
-}
-
-.bg .white {
-    left: 0;
-    top: -15px;
-}
-
-.bg .white > span {
-    background: #fff;
-}
-
-.bg .white > span:nth-child(1) {
-    width: 90%;
-    height: 30px;
-}
-
-.bg .white > span:nth-child(2) {
-    width: 60%;
-    height: 15px;
-}
-
-.bg .white > span:nth-child(3) {
-    width: 80%;
-    height: 10px;
-}
-
-.bg .white > span:nth-child(4) {
-    width: 35%;
-    height: 5px;
-}
-
-.bg .gray {
-    right: 0;
-    top: -52px;
-    text-align: right;
-}
-
-.bg .gray > span {
-    background: #f2f2f2;
-    float: right;
-}
-
-.bg .gray > span:nth-child(1) {
-    width: 35%;
-    height: 5px;
-}
-
-.bg .gray > span:nth-child(2) {
-    width: 80%;
-    height: 10px;
-}
-
-.bg .gray > span:nth-child(3) {
-    width: 60%;
-    height: 15px;
-}
-
-.bg .gray > span:nth-child(4) {
-    width: 90%;
-    height: 30px;
-}
-
-.bg.reverse > div > div {
-    float: right;
-}
-
-.bg.reverse .white {
-    left: auto;
-    right: 0;
-    top: -15px;
-}
-
-.bg.reverse .white > span {
-    float: right;
-}
-
-.bg.reverse .gray {
-    left: 0;
-    right: auto;
-    top: -52px;
-}
-
-.bg.reverse .gray > span {
-    float: left;
+.text-center{
+    text-align: center;
+    line-height: 600px;
+    vertical-align: middle;
 }

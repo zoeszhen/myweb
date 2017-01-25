@@ -50,8 +50,7 @@ module.exports = {
           'html'
         ]
       }
-    ],
-    exclude:[]
+    ]
   },
   plugins: [
     new webpack.optimize.OccurrenceOrderPlugin(),

@@ -2,13 +2,13 @@
 	<div class='menu' ng-click="triggerMenu()"
 		ng-class="{'closed':mainVm.isClose}">
 	  <div class='home button' ng-click="mainVm.goToStep(0)" ></div>
-	  <div class='places button'  ng-click="mainVm.goToStep(1)"></div>
-	  <div class='bookmark button' ng-click="mainVm.goToStep(2)"></div>
+	  <div class='bookmark button'  ng-click="mainVm.goToStep(1)"></div>
+	  <div class='places button' ng-click="mainVm.goToStep(2)"></div>
 	  <div class='main button' ng-click="mainVm.triggerMenu()">Menu</div>
 	</div>
 	
     <fountain-homepage ng-if="mainVm.step === 0"></fountain-homepage>
-	<fountain-projectpage ng-if="mainVm.step === 1"></fountain-projectpage> 
+	<fountain-projectpage ng-if="mainVm.step === 1" class="delay"></fountain-projectpage> 
 	<fountain-contactpage ng-if="mainVm.step === 2"></fountain-contactpage> 
 
 </div>

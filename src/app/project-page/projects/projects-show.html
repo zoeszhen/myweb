@@ -1,12 +1,12 @@
 <div class="container-fluid background-aboutme project-page" >
 	<div class="row-fluid">
 			<div class="col-md-4 text-center">
-			  	<button class="btn btn-default button-style-left-back" ui-sref="projectpage">
+			  	<button class="btn btn-default button-style-left-back" ui-sref="projectpage({state:1})">
 	  			<object  data="../../img/back.svg" type="image/svg+xml" class="arrow-right"></object>
 			  		BACK
 			  	</button>
 		  </div>
-		  <div class="col-md-8" style="overflow-y: scroll; height:600px;">
+		  <div class="col-md-8 scroll" style="overflow-y: scroll; height:600px; padding-right: 60px;">
 		  	<ul class="list-group" ng-repeat="item in projectshowVm.dataList" >
 		  		<li class="list-group-item project-item">
 		  			<span class="item-title"> {{item.title}} </span>

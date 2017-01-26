@@ -4,5 +4,10 @@ export class homePageCtrl {
 	public show; 
 	/** @ngInject */
 	constructor() {
+		this.show =false
+	}
+
+	public trigger(){
+		this.show = true;
 	}
 }

@@ -38,13 +38,15 @@ button {
     font-size: 1em;
     font-weight: 100;
     border-radius: 0px;
+    outline:none;
+    &:focus{outline:0;};
 }
+
 
 span {
     color: explain-text;
     font-size: 2em;
 }
-
 .button-style {
     background: transparent;
     font-size: 1.3em;
@@ -62,6 +64,7 @@ span {
     &:hover .arrow-left{
         left: -70px;
     };
+     &:focus{outline:0;};
 }
 
 .button-style-left {
@@ -84,6 +87,9 @@ span {
     &:hover .arrow-right{
         left: 137px;
     };
+
+
+     &:focus{outline:0;};
 }
 
 .button-style-left-back {
@@ -105,6 +111,8 @@ span {
     &:hover .arrow-right{
         left: 112px;
     };
+
+    &:focus{outline:0;};
 }
 
 .arrow {
@@ -154,9 +162,4 @@ span {
   border-radius: 4px;
   background-color: rgba(0, 0, 0, .5);
   /*-webkit-box-shadow: 0 0 1px rgba(255, 255, 255, .5);*/
-}
-
-.delay{
-    -webkit-transition-delay: 2s; /* Safari */
-    transition-delay: 2s;
 }

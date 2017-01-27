@@ -1,50 +1,32 @@
 [
   {
-    "title": "Gulp",
-    "img": "http://fountainjs.io/assets/imgs/gulp.png",
-    "text": "Lorem ipsum dolor sit amet, no sea reque tation dolorum, eum oblique feugait disputando ei. Eu amet atqui delicatissimi sit, nec ea alia molestiae, dolorem singulis ea mea. Id pro dicunt eleifend consetetur, et quo viderer molestie sapientem. Mea te modo utamur meliore, eos et eligendi prodesset, novum percipit maluisset mel ex. Eam agam utamur regione no. Sed ad imperdiet consectetuer, ius nostrud signiferumque id, an hinc eius mea.",
-    "link": "http://gulp.com"  
+    "title": "Test my food",
+    "img": "../../../img/food.jpg",
+    "text": "This is a interactive project. In order to get some idea of what you can have for lunch or diner.User can easily wear the detective ring meanwhile look at some food pictures.The sensor on the ring will capture the changes of user muscle signal and output the result.I am responsive with the web design with angularJS, javascript, bootstrap, HTML5, CSS.",
+    "link": "https://github.com/zoeszhen/interactive"  
   },
   {
-    "title": "Angular 1",
-    "img": "http://fountainjs.io/assets/imgs/angular1.png",
-    "text": "HTML Lorem ipsum dolor sit amet, no sea reque tation dolorum, eum oblique feugait disputando ei. Eu amet atqui delicatissimi sit, nec ea alia molestiae, dolorem singulis ea mea. Id pro dicunt eleifend consetetur, et quo viderer molestie sapientem. Mea te modo utamur meliore, eos et eligendi prodesset, novum percipit maluisset mel ex. Eam agam utamur regione no. Sed ad imperdiet consectetuer, ius nostrud signiferumque id, an hinc eius mea.!",
-    "link": "http://gulp.com"  
+    "title": "Lokki Fscure",
+    "img": "https://cdn6.aptoide.com/imgs/c/1/f/c1f6c67f51abedc37ab3a8b24f4f5c41_screen_384x640.png",
+    "text": "Lokki is a open source project from F-scure.Lokki is the most accurate and battery friendly personal location sharing app to connect you with your friends and family members. Across the world thousands of people have been taking Lokki into use since mid August when we launched the first version for iPhone and Android devices. I have take part in this open source project and contribute code with JAVA and Android Studio.",
+    "link": "https://github.com/zoeszhen/lokki-android"  
   },
   {
-    "title": "Browsersync",
-    "img": "http://fountainjs.io/assets/imgs/browsersync.png",
-    "text": "Lorem ipsum dolor sit amet, no sea reque tation dolorum, eum oblique feugait disputando ei. Eu amet atqui delicatissimi sit, nec ea alia molestiae, dolorem singulis ea mea. Id pro dicunt eleifend consetetur, et quo viderer molestie sapientem. Mea te modo utamur meliore, eos et eligendi prodesset, novum percipit maluisset mel ex. Eam agam utamur regione no. Sed ad imperdiet consectetuer, ius nostrud signiferumque id, an hinc eius mea.rowser testing",
-    "link": "http://gulp.com"  
+    "title": "Zhen Shi Profile",
+    "img": "../../../img/profile.jpg",
+    "text": "Zhen Shi profile. The profile made as the own hobby projct with TypeScript, AngularJS, Yeoman, Sass, HTML5, Gulp and bootstrap.",
+    "link": "https://zoeszhen.github.io/myweb.github.io/"  
   },
   {
-    "title": "Sass",
-    "img": "http://fountainjs.io/assets/imgs/sass.png",
-    "text": "Lorem ipsum dolor sit amet, no sea reque tation dolorum, eum oblique feugait disputando ei. Eu amet atqui delicatissimi sit, nec ea alia molestiae, dolorem singulis ea mea. Id pro dicunt eleifend consetetur, et quo viderer molestie sapientem. Mea te modo utamur meliore, eos et eligendi prodesset, novum percipit maluisset mel ex. Eam agam utamur regione no. Sed ad imperdiet consectetuer, ius nostrud signiferumque id, an hinc eius mea.e Sheets.",
-    "link": "http://gulp.com"  
-  },
-  {
-    "title": "TypeScript",
-    "img": "http://fountainjs.io/assets/imgs/typescript.png",
+    "title": "Cat and Mouse (Shell script)",
+    "img": "http://www.gladiatorinflatables.co.za/wp-content/uploads/2013/11/Cat_and_Mouse.jpg",
     "text": "Lorem ipsum dolor sit amet, no sea reque tation dolorum, eum oblique feugait disputando ei. Eu amet atqui delicatissimi sit, nec ea alia molestiae, dolorem singulis ea mea. Id pro dicunt eleifend consetetur, et quo viderer molestie sapientem. Mea te modo utamur meliore, eos et eligendi prodesset, novum percipit maluisset mel ex. Eam agam utamur regione no. Sed ad imperdiet consectetuer, ius nostrud signiferumque id, an hinc eius mea.JavaScript the way you really want to.",
     "link": "http://gulp.com"  
   },
   {
-    "title": "TSLint",
-    "img": "http://fountainjs.io/assets/imgs/tslint.png",
-    "text": "A Lorem ipsum dolor sit amet, no sea reque tation dolorum, eum oblique feugait disputando ei. Eu amet atqui delicatissimi sit, nec ea alia molestiae, dolorem singulis ea mea. Id pro dicunt eleifend consetetur, et quo viderer molestie sapientem. Mea te modo utamur meliore, eos et eligendi prodesset, novum percipit maluisset mel ex. Eam agam utamur regione no. Sed ad imperdiet consectetuer, ius nostrud signiferumque id, an hinc eius mea.t language.",
-    "link": "http://gulp.com"  
-  },
-  {
-    "title": "Karma",
-    "img": "http://fountainjs.io/assets/imgs/karma.png",
-    "text": "Lorem ipsum dolor sit amet, no sea reque tation dolorum, eum oblique feugait disputando ei. Eu amet atqui delicatissimi sit, nec ea alia molestiae, dolorem singulis ea mea. Id pro dicunt eleifend consetetur, et quo viderer molestie sapientem. Mea te modo utamur meliore, eos et eligendi prodesset, novum percipit maluisset mel ex. Eam agam utamur regione no. Sed ad imperdiet consectetuer, ius nostrud signiferumque id, an hinc eius mea.r JavaScript",
-    "link": "http://gulp.com"  
-  },
-  {
-    "title": "Webpack",
-    "img": "http://fountainjs.io/assets/imgs/webpack.png",
-    "text": "Webpack Lorem ipsum dolor sit amet, no sea reque tation dolorum, eum oblique feugait disputando ei. Eu amet atqui delicatissimi sit, nec ea alia molestiae, dolorem singulis ea mea. Id pro dicunt eleifend consetetur, et quo viderer molestie sapientem. Mea te modo utamur meliore, eos et eligendi prodesset, novum percipit maluisset mel ex. Eam agam utamur regione no. Sed ad imperdiet consectetuer, ius nostrud signiferumque id, an hinc eius mea.r",
-    "link": "http://gulp.com"
+    "title": "Vector-clock",
+    "img": "https://images.indiegogo.com/file_attachments/973844/files/20141031031405-Adjustable-Clock-Skins.png?1414750445",
+    "text": "This program is simulate the vector clock algorithm. The Node class contain all the functionalities which used in the vector clock algorithm.The following list are explain the main functions in the Node class.1.readConfigFile function: Reading the configuration file which given from the commmand line and assign it to the self index.2.random_pick function: Suppose to decided whether the event is doing the local event or sending the message to other event.3.startSocketListener function: Creating the listening port to listen the messge.4.msgSender function: Establishing the connection with the target ports and sending the message.5.Main model: Creating the event object. Calling functions in the event to do the initialization.After that creat another thread to listening the message so that the listening and sending function can working in paralleled. ",
+    "link": "https://github.com/zoeszhen/Vector-clock"  
   }
 ]

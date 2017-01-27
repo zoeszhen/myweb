@@ -1,7 +1,7 @@
 [
   {
     "title": "Test my food",
-    "img": "../../../img/food.jpg",
+    "img": "../../../myweb.github.io/img/food.jpg",
     "text": "This is a interactive project. In order to get some idea of what you can have for lunch or diner.User can easily wear the detective ring meanwhile look at some food pictures.The sensor on the ring will capture the changes of user muscle signal and output the result.I am responsive with the web design with angularJS, javascript, bootstrap, HTML5, CSS.",
     "link": "https://github.com/zoeszhen/interactive"  
   },
@@ -13,7 +13,7 @@
   },
   {
     "title": "Zhen Shi Profile",
-    "img": "../../../img/profile.jpg",
+    "img": "../../../myweb.github.io/img/profile.jpg",
     "text": "Zhen Shi profile. The profile made as the own hobby projct with TypeScript, AngularJS, Yeoman, Sass, HTML5, Gulp and bootstrap.",
     "link": "https://zoeszhen.github.io/myweb.github.io/"  
   },

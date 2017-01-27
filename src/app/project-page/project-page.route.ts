@@ -7,8 +7,11 @@ export function ProjectpageroutesConfig($stateProvider: angular.ui.IStateProvide
 
 	$stateProvider
 		.state('projectpage', {
-			parent: 'app',
+			parent: "app",
 			url: '/projectpage',
+			params: {
+				state:null
+			},
 			component: 'fountainProjectpage'
 		})
 		.state('projectsshow', {

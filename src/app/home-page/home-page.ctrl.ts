@@ -1,10 +1,13 @@
 export class homePageCtrl {
 	static $name = "homePageCtrl";
 	public test;
+	public show; 
 	/** @ngInject */
-	constructor(public $window) {
-		this.test = $window.innerHeight + $window.scrollY;
+	constructor() {
+		this.show =false
+	}
 
-		console.log("come to home page");
+	public trigger(){
+		this.show = true;
 	}
 }

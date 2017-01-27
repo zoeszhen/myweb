@@ -3,6 +3,11 @@ $read-more-bg-color: #128c66;
 .project-page{
 	padding: 5%;
 	text-align: center;
+    background: url("../src/img/project-page.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover; /* For WebKit*/
+      -moz-background-size: cover;    /* Mozilla*/
+      -o-background-size: cover;      /* Opera*/
+      background-size: cover;         /* Generic*/
 }
 
 .project-item{

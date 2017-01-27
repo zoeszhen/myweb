@@ -17,7 +17,7 @@ export function panning() {
 			  left:newvalueX+55 + "px",
 			  top:newvalueY+93 + "px"
           }
-		  $('.title').css("background-position", newvalueX + "px " + newvalueY + "px");
+		  $('.title, .experience-title, .contact-title').css("background-position", newvalueX + "px " + newvalueY + "px");
 		  $('.floating-function').css(style);
 		});
 	}

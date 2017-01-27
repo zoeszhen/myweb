@@ -13,7 +13,7 @@ $title-shade-color-contact:#cadadd;
   left: 0; 
   top:0;
 }
-
+''
 .title-group-right{
   position: absolute; 
   right: 0; 
@@ -72,3 +72,24 @@ $title-shade-color-contact:#cadadd;
 .no-float{
   float: none !important;
 }
+
+.contact-title { 
+  background: url(../src/img/title-contact.jpg) ;
+  background-position: -50px -30px;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text !important;
+  display:block;
+  z-index: 2;
+  position: absolute;
+}
+
+.experience-title { 
+  background: url(../src/img/title-experience.jpg) ;
+  background-position: -50px 20px;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text !important;
+  display:block;
+  z-index: 2;
+  position: absolute;
+}
+

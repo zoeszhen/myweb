@@ -3,8 +3,16 @@ export class MainCtrl {
 	static $name = "MainCtrl"
 	public isClose: boolean;
 	public step: number = 0;
-	
-	constructor() {
+
+	//@ngInject
+	constructor(public $state,
+		public $stateParams) {
+
+		if ($stateParams.state){
+			this.step = $stateParams.state;
+		}
+		
+		console.log("$stateParams", $stateParams);
 		this.isClose = true;
 	}
 

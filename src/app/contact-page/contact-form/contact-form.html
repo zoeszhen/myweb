@@ -1,10 +1,40 @@
-<div class="container-fluid background-aboutme project-page" >
+<div class="container-fluid contact-page" >
 	<div class="row-fluid"> 
-		<div class="col-md-8" style="overflow-y: scroll; height:600px;">
-			<input type="" name="Surname">
+		<div class="col-md-8 scroll" style="height:600px;overflow-y: scroll;padding-top: 20px">
+			<div class="contact-box">
+				<span class="title-email" style="float: left;">ZOE.ZHENSHI<b
+				style="font-size:30px; color: black; margin:0px 10px;font-weight: 400;">[AT]</b>GMAIL.COM</span>
+				<div class="row col-md-11 left">
+					<a href="https://fi.linkedin.com/in/shi-zhen-69274268">
+						<img src="../../../img/linkedin.png" class="social">
+					</a>
+					<a href="https://www.facebook.com/zoe.zhen.7">
+						<img src="../../../img/facebook.png" class="social">
+					</a>
+				</div>
+				<!-- <span>social meida</span> -->
+				<div class="row">
+					<input class="name-input col-md-10" type="name" name="Surname" placeholder="Surname">
+				</div>
+				<div class="row">	
+					<input type="name" name="Telephone" class="col-md-4 name-input" placeholder="Telephone">
+					<input type="name" name="Email" class="col-md-5 name-input"
+					placeholder="Email" 
+					 style="margin-left: 60px;">
+				</div>
+				<div class="row">
+					<input type="name" name="Message" 
+					placeholder="Message" 
+					class="name-input col-md-10"
+					 style="height: 100px;">
+				</div>
+				<div class="row">	
+					<button class="send-button">SEND</button>
+				</div>
+			</div>
 		</div>
 		<div class="col-md-4 text-center">
-		  	<button class="btn btn-default button-style-left-back" ui-sref="projectpage">
+		  	<button class="btn btn-default button-style-left-back" ui-sref="projectpage({state:2})">
   			<object  data="../../img/back.svg" type="image/svg+xml" class="arrow-right"></object>
 		  		BACK
 		  	</button>
